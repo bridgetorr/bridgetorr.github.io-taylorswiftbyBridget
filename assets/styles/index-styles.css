@@ -50,6 +50,8 @@
   .album-text{
       margin: 20px;
       float: left;
+      height: 400px;
+      width: 400px;
   }
   
   h1 {
