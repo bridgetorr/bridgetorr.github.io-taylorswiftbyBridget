@@ -57,6 +57,13 @@
   h1 {
       text-align:center;
   }
+
+  .album-favorites{
+    margin: 20px;
+    float: right;
+    height: 200px;
+    width: 200px;
+  }
   
   /* Position the navbar container inside the image */
   .container {
@@ -99,7 +106,7 @@
     /*BLUE BG*/
     background: radial-gradient(
       ellipse at center,
-      rgba(0, 128, 172, 1) 0%,
+      rgb(214, 165, 214) 0%,
       rgb(115, 75, 186) 70%,
       rgba(0, 128, 172, 0) 70.3%
     );
@@ -210,6 +217,17 @@
       bottom: 32px;
     }
   }
+
+  /*images enlarge with hover*/
+  .thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
 
 
 
